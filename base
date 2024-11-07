@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLY Visualization</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>PLY Data Visualization</h1>
+        <p>Interactive point cloud visualization from PLY files.</p>
+    </header>
+
+    <div id="controls">
+        <button id="loadInput">Load Input Data</button>
+        <button id="loadLabel">Load Label Data</button>
+        <button id="loadOutput">Load Output Data</button>
+    </div>
+
+    <div id="visualization">
+        <div id="threejs-container"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Project Name</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
